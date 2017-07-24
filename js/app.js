@@ -30,7 +30,6 @@ $(document).ready(function(){
     console.log(userInput);
     console.log(userName);
 
-    $('body').fadeIn('slow').addClass('bg');
     $('.user_input').fadeOut(500);
     $('.modal').fadeOut(2500);
 
