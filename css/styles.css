@@ -1,0 +1,33 @@
+body {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #fff;
+  background: rgba(0,0,0,0.9);
+}
+
+.bg {
+  background: url(https://wallpaperscraft.com/image/mountains_sky_sunset_peaks_97149_1920x1080.jpg) no-repeat bottom fixed;
+}
+
+/* ********** USER INPUT  ********** */
+
+.user_input {
+  margin-top: 280px;
+  display: none;
+}
+
+input {
+  background-color: transparent;
+  border-color: transparent;
+  border-bottom: 2px solid #fff;
+  width: 75%;
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+input:focus {
+  outline: none;
+}
