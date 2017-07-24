@@ -6,8 +6,8 @@ $(document).ready(function(){
 
     // Background Images List
     var bgImage = [
-      'url(https://wallpaperscraft.com/image/mountains_sky_sunset_peaks_97149_1920x1080.jpg)',
-      'url(https://images.pexels.com/photos/50594/sea-bay-waterfront-beach-50594.jpeg?w=940&h=650&auto=compress&cs=tinysrgb)',
+      'url(https://d3cbihxaqsuq0s.cloudfront.net/images/53414818_xl.jpg)',
+      'url(https://farm5.staticflickr.com/4274/34525384820_d58d1755b4_k.jpg)',
       'url(https://cdn.pixabay.com/photo/2017/06/27/07/34/tea-2446522__340.jpg)'
     ];
 
