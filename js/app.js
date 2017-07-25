@@ -8,7 +8,7 @@ $(document).ready(function(){
     var bgImage = [
       'url(https://d3cbihxaqsuq0s.cloudfront.net/images/53414818_xl.jpg)',
       'url(https://farm5.staticflickr.com/4274/34525384820_d58d1755b4_k.jpg)',
-      'url(https://cdn.pixabay.com/photo/2017/06/27/07/34/tea-2446522__340.jpg)'
+      'url(https://az814671.vo.msecnd.net/fullsize/bc02cd92-13e1-4bc3-8020-b0acf5c80880.jpg)'
     ];
 
     // Get random number for array index
@@ -22,8 +22,10 @@ $(document).ready(function(){
   // Get name from User Input
   function getName(){
     console.log('Function Invoked !');
+
     // Get </input> tag
     var userInput = document.getElementById('userInput');
+
     // Get User Name
     var userName = userInput.value;
 
