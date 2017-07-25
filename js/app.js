@@ -51,3 +51,9 @@ $(document).ready(function(){
   });
 
 });
+
+
+
+
+
+// Get random quote on refresh
