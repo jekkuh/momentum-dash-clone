@@ -27,7 +27,24 @@
 </head>
 
 <body>
-
+ 
+ <!-- just commenting out for now 
+    <div id="myNav" class="modal">
+        <div class="row user_input text-center">
+            <h1>Welcome, what is your name?</h1>
+            </br>
+            <input id="userInput" type="text" autofocus>
+        </div>
+    </div> -->
+    
+ <!-- Display Weather -->
+   
+<div class="container-fluid">
+ <!-- <div id="top-right" class="top-right">
+  <div id="weather" class="display-weather"> -->
+  <div class="row top-right">
+    <div class="col-md-12  display-weather">
+      Weather will <br> display here
   <div class="to_do">
     <p>Todo</p>
   </div>
@@ -39,15 +56,54 @@
       <input id="userInput" type="text" autofocus>
     </div>
   </div>
+</div>
 
-  <!-- jQuery -->
-  <script src="js/jquery.min.js"></script>
+<!-- Display time -->
+<div class="container clock">
+<div class="row">
+  <div class="col-md-12">
+    <span id="clock"><p></p></span>
+  </div>
+  
+  <!-- Example welcome text -->
+    <div class="container sample-text">
+      <h2>Welcome, Batman!</h2>
+      <h3>What would you like to accomplish today?</h3> <input id="userInput" type="text" autofocus>
+      
+    </div>
+  </div><!-- /col-md-12 -->
+  </div><!-- /row -->
+</div><!-- /container -->
 
-  <!-- Bootstrap Core JavaScript -->
-  <script src="js/bootstrap.min.js"></script>
 
-  <!-- Custom -->
-  <script src="js/app.js"></script>
+<!-- ADD TODO ITEM -->
+
+
+
+<!-- Random Quote on Refresh -->
+<footer>
+<div class="container random-quote">
+  <div class="row text-center">
+    <div class="col-md-12 quote">
+      “There came a time when the risk to remain tight in the bud was more painful than the risk it took to blossom.”
+-Anaïs Nin
+    </div><!-- /col-md-12 -->
+  </div><!-- /row -->
+</div><!-- /quote container -->
+</footer>
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom -->
+    <script src="js/app.js"></script>
+    <script src="js/momentum-clock.js"></script>
+    <script src="js/momentum-quote.js"></script>
 
 </body>
 
