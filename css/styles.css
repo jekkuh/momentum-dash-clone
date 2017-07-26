@@ -107,7 +107,6 @@ input:focus {
     outline: none;
 }
 
-
 /* ************* QUOTE SECTION *************** */
 .quote {
   positon: absolute;
@@ -115,12 +114,13 @@ input:focus {
   font-size: 1.75rem;
 }
 
+.to_do {
+  position: fixed;
+  bottom: 10px;
+  right: 30px;
+}
 
-
-
-
-
-
-
-
+.to_do p {
+  font-size: 20px;
+}
 
