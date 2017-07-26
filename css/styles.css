@@ -7,6 +7,11 @@ body {
   color: #fff;
 }
 
+ul li {
+  text-decoration: none;
+  list-style: none;
+}
+
 /* ********** USER INPUT MODAL  ********** */
 
 #modal {
@@ -25,7 +30,7 @@ body {
 }
 
 .user_input {
-  margin-top: 280px;
+  margin-top: 230px;
   display: none;
 }
 
@@ -43,12 +48,36 @@ input:focus {
   outline: none;
 }
 
-.to_do {
-  position: fixed;
-  bottom: 10px;
-  right: 30px;
+@media (min-width: 768px) {
+  input {
+    width: 55%;
+  }
 }
 
-.to_do p {
-  font-size: 20px;
+@media (min-width: 1024px) {
+  .user_input {
+    margin-top: 300px;
+  }
+  input {
+    width: 45%;
+  }
+}
+
+/* ********** PAGE CONTENT  ********** */
+
+.main_content {
+  display: none;
+  margin-top: 500px;
+}
+
+.focus_content_list {
+  display: none;
+}
+
+.focus_content_list ul li {
+  font-size: 25px;
+}
+
+.focus_content h1 {
+  font-weight: 300;
 }
