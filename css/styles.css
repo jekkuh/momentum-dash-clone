@@ -1,44 +1,126 @@
 body {
-  background: no-repeat bottom fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  color: #fff;
+    background: no-repeat bottom fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
 }
+
+
+
 
 /* ********** USER INPUT MODAL  ********** */
 
+                    /*Temporary comment out to configure layout */
+
+/*
 #modal {
-  width: 100%;
+    width: 100%;
 }
 
 .modal {
-  height: 100%;
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  display: block;
-  background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
-  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
-}
+    height: 100%;
+    position: fixed;
+    /* Stay in place */
+/*    z-index: 1;
+    /* Sit on top */
+/*   left: 0;
+    top: 0;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/opacity */
+/*    transition: 0.5s;
+    /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+} */
 
-.user_input {
-  margin-top: 280px;
-  display: none;
+ /* .user_input {
+    margin-top: 280px;
+    display: none;
 }
 
 input {
-  background-color: transparent;
-  border-color: transparent;
-  border-bottom: 2px solid #fff;
-  width: 75%;
-  text-align: center;
-  font-size: 25px;
-  letter-spacing: 1px;
+    background-color: transparent;
+    border-color: transparent;
+    border-bottom: 2px solid #fff;
+    width: 75%;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 1px;
 }
 
 input:focus {
-  outline: none;
+    outline: none;
 }
+ */
+
+
+/* ************** WEATHER ************** */
+.top-right {
+  height: 60px; 
+  
+}
+
+.display-weather {
+    text-align: right;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+/* ************ CLOCK ************* */
+.clock {
+
+  padding-top: 50px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 7.25rem;
+}
+
+/* ******** EXAMPLE WELCOME TEXT & INPUT ************ */
+h2 {
+  text-size: 4rem;
+  padding-top: 20px;
+  margin-top: 20px;
+  font-weight: 300;
+}
+
+user_input {
+    margin-top: 280px;
+    display: none;
+}
+
+input {
+    background-color: transparent;
+    border-color: transparent;
+    border-bottom: 2px solid #333;
+    width: 75%;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+/* ************* QUOTE SECTION *************** */
+.quote {
+  positon: absolute;
+  top:75vh;
+  font-size: 1.75rem;
+}
+
+
+
+
+
+
+
+
+
+
