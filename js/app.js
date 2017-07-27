@@ -6,7 +6,7 @@ $(document).ready(function(){
 
     // Background Images List
     var bgImage = [
-      'url(https://d3cbihxaqsuq0s.cloudfront.net/images/53414818_xl.jpg)',
+      'url(https://farm6.staticflickr.com/5574/14652112495_5a8d914848_k.jpg)',
       'url(https://farm5.staticflickr.com/4274/34525384820_d58d1755b4_k.jpg)',
       'url(https://az814671.vo.msecnd.net/fullsize/bc02cd92-13e1-4bc3-8020-b0acf5c80880.jpg)'
     ];

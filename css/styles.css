@@ -2,20 +2,15 @@ body {
     background: no-repeat bottom fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover;;
     background-size: cover;
     color: #fff;
 }
 
-<<<<<<< HEAD
 ul li {
   text-decoration: none;
   list-style: none;
 }
-=======
-
-
->>>>>>> 2ea69d5ce8745f17d0d7b08cb320b9c18667029a
 
 /* ********** USER INPUT MODAL  ********** */
 
@@ -38,8 +33,10 @@ ul li {
     background-color: rgba(0, 0, 0, 0.9);
     /* Black w/opacity */
 /*    transition: 0.5s;
-    /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
-} */
+    /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal)
+}
+
+*/
 
  /* .user_input {
     margin-top: 280px;
@@ -64,8 +61,8 @@ input:focus {
 
 /* ************** WEATHER ************** */
 .top-right {
-  height: 60px; 
-  
+  height: 60px;
+
 }
 
 .display-weather {
@@ -75,19 +72,25 @@ input:focus {
 }
 
 /* ************ CLOCK ************* */
-.clock {
 
-  padding-top: 50px;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 0;
-  width: 100%;
-  text-align: center;
-  font-size: 7.25rem;
+.clock {
+  font-size: 5rem;
+}
+
+@media (min-width: 768px) {
+  .clock {
+    font-size: 8rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .clock {
+    font-size: 10rem;
+  }
 }
 
 /* ******** EXAMPLE WELCOME TEXT & INPUT ************ */
+
 h2 {
   text-size: 4rem;
   padding-top: 20px;
@@ -95,15 +98,14 @@ h2 {
   font-weight: 300;
 }
 
-<<<<<<< HEAD
 .user_input {
   margin-top: 230px;
   display: none;
-=======
-user_input {
+}
+
+.user_input {
     margin-top: 280px;
     display: none;
->>>>>>> 2ea69d5ce8745f17d0d7b08cb320b9c18667029a
 }
 
 input {
@@ -121,19 +123,26 @@ input:focus {
 }
 
 /* ************* QUOTE SECTION *************** */
+
 .quote {
-  positon: absolute;
-  top:75vh;
+  position: absolute;
+  top:85vh;
   font-size: 1.75rem;
 }
 
 @media (min-width: 768px) {
+  .quote {
+    top:93vh;
+  }
   input {
     width: 55%;
   }
 }
 
 @media (min-width: 1024px) {
+  .quote {
+    top:99vh;
+  }
   .user_input {
     margin-top: 300px;
   }
@@ -145,9 +154,22 @@ input:focus {
 /* ********** PAGE CONTENT  ********** */
 
 .main_content {
-  display: none;
-  margin-top: 500px;
+  margin-top: 200px;
 }
+
+@media (min-width: 768px) {
+  .main_content {
+    margin-top: 330px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main_content {
+    margin-top: 330px;
+  }
+}
+
+/*
 
 .focus_content_list {
   display: none;
@@ -161,3 +183,4 @@ input:focus {
   font-weight: 300;
 }
 
+*/
