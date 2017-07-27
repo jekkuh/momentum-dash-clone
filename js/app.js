@@ -38,23 +38,6 @@ $(document).ready(function(){
 
   }
 
-  function addFocus() {
-
-    // Get </input> tag
-    var focusInput = document.getElementById('focusInput');
-
-    var focusText = focusInput.value;
-
-    $('.focus_content').fadeOut(500);
-
-    $('#focusList').append('<li>' + focusText + '</li>');
-
-    $('.focus_content_list').fadeIn(3000);
-
-    console.log(focusInput);
-    console.log(focusText);
-  }
-
   // Set background
   setBackground();
 
@@ -65,17 +48,6 @@ $(document).ready(function(){
   $('.modal').keypress(function(e) {
     if(e.which == 13){
       getName();
-    }
-  });
-
-  var once = true;
-
-  $('.main_content').keypress(function(e) {
-    if(e.which == 13){
-      if(once) {
-          addFocus();
-          once = false;
-      }
     }
   });
 

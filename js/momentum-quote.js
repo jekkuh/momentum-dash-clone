@@ -1,3 +1,12 @@
+function updateFocus() {
+
+  // Get Focus Input
+  var input = document.getElementById('userInput');
+
+  console.log(input);
+
+}
+
 function showQuote() {
   var quotes = [
               "My favorite things in life don’t cost any money. It’s really clear that the most precious resource we all have is time. ^Steve Jobs",
@@ -32,5 +41,10 @@ function showQuote() {
 
 /* Add random Quote on refresh */
 $(document).ready(function() {
+  $('body').keypress(function(e) {
+    if(e.which == 13) {
+      updateFocus();
+    }
+  });
   showQuote();
 });
