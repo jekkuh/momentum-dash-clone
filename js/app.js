@@ -6,9 +6,9 @@ $(document).ready(function(){
 
     // Background Images List
     var bgImage = [
-      'url(https://farm6.staticflickr.com/5574/14652112495_5a8d914848_k.jpg)',
-      'url(https://farm5.staticflickr.com/4274/34525384820_d58d1755b4_k.jpg)',
-      'url(https://az814671.vo.msecnd.net/fullsize/bc02cd92-13e1-4bc3-8020-b0acf5c80880.jpg)'
+      'url(https://images4.alphacoders.com/190/thumb-1920-19098.jpg)',
+      'url(https://images4.alphacoders.com/395/thumb-1920-39516.jpg)',
+      'url(https://images7.alphacoders.com/712/thumb-1920-712440.jpg)'
     ];
 
     // Get random number for array index

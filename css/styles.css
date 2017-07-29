@@ -1,10 +1,11 @@
 body {
-    background: no-repeat bottom fixed;
+    background: no-repeat top fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;;
     background-size: cover;
     color: #fff;
+    font-weight: lighter;
 }
 
 ul li {
@@ -64,12 +65,13 @@ input:focus {
 /* *s*********** CLOCK ************* */
 
 .clock {
-  font-size: 5rem;
-  margin-top: 200px;
+  font-size: 50px;
+  margin-top: 150px;
 }
 
 #welcomeText {
   font-size: 35px;
+  font-weight: lighter;
 }
 
 @media (min-width: 768px) {
@@ -85,24 +87,20 @@ input:focus {
   }
 }
 
+/* ************ FOCUS PROMPT ************* */
+
+h3 {
+  font-weight: lighter;
+  font-size: 3rem;
+}
+
 .focus {
   margin-top: -40px;
+  margin-top: 40px;
+  font-weight: lighter;
 }
 
-/* ******** EXAMPLE WELCOME TEXT & INPUT ************ */
-
-h2 {
-  font-size: 3rem;
-  padding-top: 20px;
-  margin-top: 20px;
-  font-weight: 400;
-}
-
-.sample-text {
-  margin-top: 100px;
-}
-
-.user_input {
+.user_input {;
   margin-top: 230px;
   display: none;
 }
@@ -114,6 +112,18 @@ h2 {
 
 #focusList {
   display: none;
+}
+
+.focus_content_list {
+  display: none;
+}
+
+.focus_content_list ul li {
+  font-size: 25px;
+}
+
+.focus_content h1 {
+  font-weight: 300;
 }
 
 input {
@@ -130,49 +140,12 @@ input:focus {
     outline: none;
 }
 
-/* ************* QUOTE SECTION ***************
+/* ************* QUOTE SECTION *************** */
 
-.quote {
-  position: absolute;
-  top:85vh;
-  font-size: 1.75rem;
+footer {
+  font-size: 20px;
 }
 
-@media (min-width: 768px) {
-  .quote {
-    top:93vh;
-  }
-  input {
-    width: 55%;
-  }
+.random-quote {
+  margin-top: 160px;
 }
-
-@media (min-width: 1024px) {
-  .quote {
-    top:99vh;
-  }
-  .user_input {
-    margin-top: 300px;
-  }
-  input {
-    width: 45%;
-  }
-}
-
-*/
-
-/*
-
-.focus_content_list {
-  display: none;
-}
-
-.focus_content_list ul li {
-  font-size: 25px;
-}
-
-.focus_content h1 {
-  font-weight: 300;
-}
-
-*/
