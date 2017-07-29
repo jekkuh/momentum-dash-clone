@@ -60,18 +60,8 @@ input:focus {
 
 
 /* ************** WEATHER ************** */
-.top-right {
-  height: 60px;
 
-}
-
-.display-weather {
-    text-align: right;
-    padding: 20px;
-    font-size: 1.5rem;
-}
-
-/* ************ CLOCK ************* */
+/* *s*********** CLOCK ************* */
 
 .clock {
   font-size: 5rem;
@@ -130,7 +120,7 @@ input:focus {
     outline: none;
 }
 
-/* ************* QUOTE SECTION *************** */
+/* ************* QUOTE SECTION ***************
 
 .quote {
   position: absolute;
@@ -158,6 +148,8 @@ input:focus {
     width: 45%;
   }
 }
+
+*/
 
 /* ********** PAGE CONTENT  ********** */
 
