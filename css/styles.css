@@ -65,11 +65,17 @@ input:focus {
 
 .clock {
   font-size: 5rem;
+  margin-top: 200px;
+}
+
+#welcomeText {
+  font-size: 35px;
 }
 
 @media (min-width: 768px) {
   .clock {
     font-size: 8rem;
+    margin-top: 400px;
   }
 }
 
@@ -77,6 +83,10 @@ input:focus {
   .clock {
     font-size: 10rem;
   }
+}
+
+.focus {
+  margin-top: -40px;
 }
 
 /* ******** EXAMPLE WELCOME TEXT & INPUT ************ */
@@ -150,24 +160,6 @@ input:focus {
 }
 
 */
-
-/* ********** PAGE CONTENT  ********** */
-
-.main_content {
-  margin-top: 200px;
-}
-
-@media (min-width: 768px) {
-  .main_content {
-    margin-top: 330px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .main_content {
-    margin-top: 330px;
-  }
-}
 
 /*
 
