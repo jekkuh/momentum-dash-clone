@@ -14,6 +14,8 @@
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+   <!-- Font Awesome CDN -->
+   <script src="https://use.fontawesome.com/976946e001.js"></script>
     <!-- Custom CSS -->
     <link href="css/styles.css" rel="stylesheet">
 
@@ -33,19 +35,39 @@
       <div class="row clock">
         <div class="col-md-12">
           <span id="clock"><p></p></span>
-          <!-- Example -->
+          
+          <!-- Welcome Text -->
+         
           <p id="welcomeText">Good evening, Master Yoda</p>
         </div> <!-- /col-sm-12 -->
       </div><!-- /row -->
-      <div class="row focus">
+   
+      
+      	 
+	<!-- ADD TODO ITEM -->
+<div id="container">
+		<h3>What would you like to accomplish today?</h3>
+		<input id="new-task" type="text">
+		<ul id="to-do-list">
+		</ul>
+	</div>
+	
+    
+    
+      
+      
+     <!--
+       <div class="row focus">
         <div class="col-sm-12">
           <h3>What would you like to accomplish today?</h3>
-          <input id="userInput" type="text">
-          <ul id="focusList">
+          
+          <input id="new-task" type="text">
+          <ul id="to-do-list">
           </ul>
         </div>
       </div><!-- /row -->
-    </div><!-- /container -->
+   
+   
 
     <footer>
 
@@ -127,6 +149,7 @@
     <!-- Custom -->
     <script src="js/app.js"></script>
     <script src="js/momentum-clock.js"></script>
+    <script src="js/momentum-todo.js"></script>
     <script src="js/momentum-quote.js"></script>
 
 </body>
